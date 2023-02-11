@@ -19,3 +19,7 @@ alias batt='upower -i $(upower -e | grep BAT) | grep --color=never -E "state|to\
 follow these instructions:
 
 https://github.com/morrownr/88x2bu-20210702
+
+## stampante 
+
+[link](https://forum.ubuntu-it.org/viewtopic.php?t=426071)
