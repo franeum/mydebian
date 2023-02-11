@@ -20,6 +20,6 @@ follow these instructions:
 
 https://github.com/morrownr/88x2bu-20210702
 
-## stampante 
+## stampante EPSON EPL-6200L
 
 [link](https://forum.ubuntu-it.org/viewtopic.php?t=426071)
