@@ -1,5 +1,14 @@
 # mydebian
 
+## add user to sudoers
+
+```bash
+su
+sudo adduser <user> sudo
+```
+
+N.B. perhaps `useradd` instead `adduser`
+
 ## bashrc
 
 add these lines to .bashrc file:
