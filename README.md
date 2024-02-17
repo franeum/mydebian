@@ -11,14 +11,14 @@ N.B. perhaps `useradd` instead `adduser`
 
 ## for debian 12 on laptop
 
-edit `/etc/default/grub`:
-substitute:
-`GRUB_CMDLINE_LINUX_DEFAULT="quiet"`
-with
-`GRUB_CMDLINE_LINUX_DEFAULT="intel_idle.max_cstate=1"`
+edit `/etc/default/grub`:  
+substitute:  
+`GRUB_CMDLINE_LINUX_DEFAULT="quiet"`  
+with  
+`GRUB_CMDLINE_LINUX_DEFAULT="intel_idle.max_cstate=1"`  
 
-run
-`sudo update-grub`
+run  
+`sudo update-grub`  
 
 ## bashrc
 
