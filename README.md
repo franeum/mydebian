@@ -34,6 +34,13 @@ alias riavvia='systemctl reboot'
 alias batt='upower -i $(upower -e | grep BAT) | grep --color=never -E "state|to\ full|to\ empty|percentage"'
 ```
 
+If `bash` terminal doesn't open at home dir, install `policycoreutils` and execute these commands as root:
+
+```bash
+restorecon -r -v /home
+```
+
+
 ## DWA-181 wireless dongle install
 
 follow these instructions:
