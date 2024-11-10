@@ -40,6 +40,18 @@ If `bash` terminal doesn't open at home dir, install `policycoreutils` and execu
 restorecon -r -v /home
 ```
 
+## on mx-linux
+
+`bashrc` file:
+
+```bash
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+```
+
 
 ## DWA-181 wireless dongle install
 
