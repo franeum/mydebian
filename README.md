@@ -91,12 +91,17 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo bash -
 sudo apt install nodejs
 ```
 
-### python 3.10.4
+## neovim
+
+### installation
+
 ```bash
-sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev libbz2-dev
-wget https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz
-tar -xf Python-3.10.4 && cd $_
-./configure --enable-optimizations
-make -j 4
-sudo make altinstall (sudo make install if you want replace default binary python)
+sudo apt install snapd
+sudo apt install nvim
+```
+
+In `.bashrc`, add `/snap/bin` to PATH:
+
+```bash
+export PATH=$PATH:/snap/bin
 ```
