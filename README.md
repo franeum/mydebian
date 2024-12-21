@@ -52,6 +52,14 @@ else
 fi
 ```
 
+## if /home is empty
+
+Install xdg-user-dirs and then:
+
+```bash
+LC_ALL=C.UTF-8 xdg-user-dirs-update --force
+```
+
 
 ## DWA-181 wireless dongle install
 
