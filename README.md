@@ -52,6 +52,12 @@ else
 fi
 ```
 
+if use bash config app:
+
+```bash
+\u@\h:\e[1;33m[\w\e[1;33m]\e[0m\e[1m$
+```
+
 ## if /home is empty
 
 Install xdg-user-dirs and then:
