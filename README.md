@@ -131,3 +131,17 @@ In file `init.lua` you insert reference to a plugin. After this, you can call fr
 ```bash
 :PlugInstall
 ```
+
+
+### set default browser (chrome)
+
+```bash
+xdg-mime default google-chrome.desktop x-scheme-handler/http
+xdg-mime default google-chrome.desktop x-scheme-handler/https
+```
+
+and (optional)
+
+```bash
+xdg-settings set default-web-browser google-chrome.desktop
+```
